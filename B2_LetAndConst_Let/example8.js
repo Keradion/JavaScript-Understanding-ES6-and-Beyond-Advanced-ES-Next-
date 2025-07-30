@@ -9,6 +9,5 @@ for (let person of person.firstnames) {
 
 
 // person.firstname will cause an error
-// we think we are accessing the person variable defined in the outer lexical environment
-// but since we have person defined inside the same lexical environment
-// we get undefined as an output
+// since we are trying to access person variable
+// which is not initalized inside the lexical environment of the loop.

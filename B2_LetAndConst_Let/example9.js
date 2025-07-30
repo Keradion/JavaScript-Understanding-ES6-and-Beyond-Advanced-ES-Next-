@@ -8,4 +8,5 @@ for (person of person.firstnames) {
 // person will be accessed from the global execution context lexical environment.
 
 console.log(person);
+
 // we get anthony since we assign the values from the array during each iteration.

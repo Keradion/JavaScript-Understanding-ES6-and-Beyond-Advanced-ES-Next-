@@ -2,7 +2,8 @@ function greet(strings, firstname, lastname) {
     let firstNameType;
 
     firstNameType = firstname === 'Tony' ? "short" : "long";
-
+    console.log(strings);
+    
     return `${strings[0]}${firstname}${strings[1]}${lastname}. You used your ${firstNameType} name.`;
 }
 
