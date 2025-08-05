@@ -17,7 +17,11 @@ class Person {
 }
 
 let me = new Person();
+
 console.log(Person.goodMorning());
 console.log(Person.residence);
+
+console.log(Person);
+
 console.log(me.__proto__); // no goodMorning
 console.log(me.goodMorning()); // error

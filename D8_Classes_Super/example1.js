@@ -12,11 +12,11 @@ class Person {
 
 class Tony extends Person {
     constructor() {
-        super('Tony');
+        super('Tony'); // we are invoking the constructor defined inside Person class.
     }
 
     greet() {
-        let greeting = super.greet();
+        let greeting = super.greet(); // since we extend person which has the method greet. we call it through super().
         return `${greeting}. I'm Tony`;
     }
 
