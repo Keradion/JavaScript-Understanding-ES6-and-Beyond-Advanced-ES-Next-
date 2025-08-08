@@ -15,6 +15,10 @@ class Person {
         this.#firstName = fn;
     }
 
+    // the following filed defined as a private method
+    // that means only accessable for other methods inside an object like fname set and fname get
+    // and also greet
+    // so only by methods from the prototype not by directly through the instance like greet
     #getPersonInfo() {
         // get data from a server
         return {

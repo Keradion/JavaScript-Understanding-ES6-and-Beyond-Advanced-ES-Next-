@@ -23,7 +23,7 @@ class Person {
 
     // the func set fname help us to set a value for the property firstname of an instance 
     // since we dont have direct access to this property using . operator.
-    
+
     set fname(fn) {
         this.#firstName = fn;
     }
@@ -42,3 +42,7 @@ me.fname = 'Anthony';
 console.log(me.greet());
 
 console.log(me.fname);
+
+// using getters and setters to read and set properties of an instance
+// from the class help us to encapsulate data
+// and also add our own validation before setting a value or reading a value from a property of an instance.
