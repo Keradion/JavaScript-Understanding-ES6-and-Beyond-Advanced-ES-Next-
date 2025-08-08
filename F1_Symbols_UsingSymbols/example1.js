@@ -88,10 +88,16 @@ s1.welcome = function () {
 // [grade] and grade are different
 
 console.log(s1.grade);
-console.log(s1[grade])
+console.log(s1[grade]);
 
 // welcome and [welcome] are different too
 
 console.log(s1.welcome());
 console.log(s1[welcome]());
 
+const INTEREST_RATE = Symbol.for(0.10);
+console.log(INTEREST_RATE);
+
+// compute interest 
+
+((amount) => console.log (amount * Symbol.keyFor(INTEREST_RATE))) (1000);

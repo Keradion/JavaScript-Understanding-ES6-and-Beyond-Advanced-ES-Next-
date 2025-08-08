@@ -1,10 +1,16 @@
 // arrays
-let names = ['Tony', 'Anthony', 'Alicea'];
+let names = [
+    'Tony', 
+    'Anthony', 
+    'Alicea'
+];
 
+// of gives values
 for (const name of names) {
     console.log(name); // values
 }
 
+// in gives indexes
 for (const name in names) {
     console.log(name); // keys
 }
